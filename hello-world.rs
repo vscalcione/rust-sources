@@ -8,3 +8,4 @@ fn hello_by_user(){
 	std::io::stdin().read_line(&mut name).unwrap();
 	println!("Hello {}", name);
 }
+
